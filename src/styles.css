@@ -1,1 +1,95 @@
-/* You can add global styles to this file, and also import other style files */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+  }
+  .row
+  {
+    width: 100%;
+  }
+  .column
+  {
+    margin: 5%; 
+    width:40%; 
+    float: left;
+
+  }
+  button:disabled
+{
+  -webkit-filter: blur(1px);
+  opacity:0.8;
+}
+  .main
+  {
+    margin: 10%;
+  }
+  .btnPrimary
+  {
+    background-color: #2B8EAD;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1%;
+  }
+  .center
+  {
+    text-align: center;
+  }
+  .font
+  {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 15%;
+  }
+  .fonttwo
+  {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;  
+    padding: 1.9%;
+  }
+  .test
+  {
+    background-color: #586e75;
+  }
+  .color1
+  {
+    background-color: #000000 ;
+  }
+  .color2
+  {
+    background-color: #2B8EAD ;
+  }
+  .color3
+  {
+    background-color: #333333 ;
+  }
+  .color4
+  {
+    background-color: #6F98A8 ;
+  }
+  .color5
+  {
+    background-color:#d3adad ;
+  }
+  .color6
+  {
+    background-color:#BFBFBF ;
+  }
+  .color7
+  {
+    background-color:#e6abcd ;
+  }
+  .color8
+  {
+    background-color: #2F454E ;
+  }
+  .color9
+  {
+    background-color: #72C3DC;
+  }
